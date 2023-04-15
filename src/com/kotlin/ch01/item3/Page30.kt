@@ -1,4 +1,4 @@
-package com.kotlin.item3
+package com.kotlin.ch01.item3
 
 
 fun platformType(){

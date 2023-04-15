@@ -1,4 +1,4 @@
-package com.kotlin.item4
+package com.kotlin.ch01.item4
 
 // 아이템3과 유사한 내용이긴 하다
 // 결과적으로 타입을 꼭 지정 하라는 얘기인데

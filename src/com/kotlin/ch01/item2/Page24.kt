@@ -1,4 +1,4 @@
-package com.kotlin.item2
+package com.kotlin.ch01.item2
 
 fun main(){
     var numbers  = (2..100).toList()

@@ -1,4 +1,4 @@
-package com.kotlin.item1
+package com.kotlin.ch01.item1
 
 class Page9 {
     fun calculate(): Int {

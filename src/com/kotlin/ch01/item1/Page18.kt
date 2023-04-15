@@ -1,4 +1,4 @@
-package com.kotlin.item1
+package com.kotlin.ch01.item1
 
 data class User2 constructor(
     val name: String,

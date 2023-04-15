@@ -1,4 +1,4 @@
-package com.kotlin.item2
+package com.kotlin.ch01.item2
 
 fun main() {
     // 코틀린의 if는 자바와 다르게 질문이 아닌 결과는 뽑아내는 식이다 when도 마찬가지

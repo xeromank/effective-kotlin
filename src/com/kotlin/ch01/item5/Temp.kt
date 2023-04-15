@@ -1,4 +1,4 @@
-package com.kotlin.item5
+package com.kotlin.ch01.item5
 
 
 fun main(){

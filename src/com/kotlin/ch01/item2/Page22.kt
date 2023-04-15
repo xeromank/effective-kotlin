@@ -1,4 +1,4 @@
-package com.kotlin.item2
+package com.kotlin.ch01.item2
 
 fun main(){
     val users = listOf("A", "B")
