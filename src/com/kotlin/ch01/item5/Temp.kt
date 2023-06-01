@@ -4,9 +4,9 @@ package com.kotlin.ch01.item5
 fun main(){
 
     earlyReturn(null)
-    earlyReturn("영남")
-    testRequire(11)
-    testCheck(false)
+//    earlyReturn("영남")
+//    testRequire(11)
+//    testCheck(false)
 
 
 }
