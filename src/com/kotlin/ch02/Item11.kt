@@ -13,7 +13,7 @@ class Item11 {
         return null
     }
 
-    fun page74ProblemInLet(){
+    fun page74HumanIssueInLet(){
 
         val map = mutableMapOf<String, String>()
         val list = mutableListOf<String>()
@@ -32,5 +32,5 @@ class Item11 {
 
 }
 fun main(){
-    Item11().page74ProblemInLet()
+    Item11().page74HumanIssueInLet()
 }
