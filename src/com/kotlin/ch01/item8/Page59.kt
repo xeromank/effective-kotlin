@@ -37,4 +37,27 @@ fun main(){
         e.printStackTrace()
     }
 
+
+    var ss:String? = null
+
+    if(ss != null){
+        print(ss)
+    }
+}
+
+fun aa(){
+    var ss: Map<String, String>? = ss1()
+
+    requireNotNull(ss)
+    print(ss["123"])
+
+    ss = ss2()
+    print(ss["123"])
+}
+fun ss1(): Map<String, String>?{
+    return null
+}
+
+fun ss2(): Map<String, String>?{
+    return mapOf()
 }
