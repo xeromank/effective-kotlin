@@ -52,7 +52,7 @@ fun aa(){
     print(ss["123"])
 
     ss = ss2()
-    print(ss["123"])
+//    print(ss["123"])
 }
 fun ss1(): Map<String, String>?{
     return null

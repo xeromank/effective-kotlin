@@ -26,8 +26,9 @@ fun earlyReturn(name: String?){
 //    val name: String = name ?: return
 
     val name: String = name ?: run {
-        println("이름이 널이다")
-        return
+//        println("이름이 널이다")
+//        return
+        "123"
     }
 
     println("이름은 ${name}이다")

@@ -12,6 +12,8 @@ class Page9 {
 
 }
 fun main() {
+    val aa = listOf<String>()
+    val bb = mutableListOf<String>()
     val page9 = Page9()
     println(page9.fizz)
     println(page9.fizz)
