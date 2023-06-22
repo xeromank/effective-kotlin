@@ -18,7 +18,11 @@ class CommerceAd(name: String) : Ad(name) {
 }
 
 class SmallHomeOfficeMallAd(name: String) : Ad(name) {
+    val value by lazy { crete() }
 
+    private fun crete(): String? {
+        return null
+    }
 }
 
 fun commerceCalc() {
@@ -42,11 +46,19 @@ private fun calcAmount(list: MutableList<out Ad>): MutableList<out Ad> {
 fun main() {
     val list = mutableListOf(CommerceAd("name"))
     val possibleRead = calcAmount(list)
-    possibleRead.add(CommerceAd("name"))
+//    possibleRead.add(CommerceAd("name"))
+
+
 
     val possibleWrite: MutableList<in Ad> = mutableListOf()
     possibleWrite.add(CommerceAd("name"))
-    possibleWrite.map {
-        it.amount
+//    possibleWrite.map {
+//        it.amount
+//    }
+    for( s in possibleWrite){
+        if(s is Ad){
+            val aa = s
+            aa.amount
+        }
     }
 }
